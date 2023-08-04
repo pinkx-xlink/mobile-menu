@@ -14,10 +14,12 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap:5px;
 }
 input {
     background-color: purple;
     height: 50px;
+    width: 300px;
 }
 
 #search {
