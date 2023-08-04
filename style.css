@@ -8,3 +8,12 @@ footer {
     background-color: yellow;
     
 }
+
+button {
+    background-color: orange;
+    border-style: none;
+    display: grid;
+    height:100px;
+    width: 100px;
+    grid-template-columns:auto;
+}
