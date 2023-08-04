@@ -5,17 +5,27 @@ body {
     height: 100%;
 }
 
-.container {
+/* .container {
     display: grid;
-    min-height: 100%;
-    grid-template-rows: auto 1fr auto;
-    grid-template-columns: 100%;
+    grid-area: menu;
+} */
+
+/* #search {
+    grid-area: header;
+    background-color: purple;
+    background-image: url("img/search.png");
+} */
+
+.article {
+    display: grid;
+    grid-area: main;
+    height: 300px;
 }
 
 footer {
     background-color: yellow;
-    display:grid;
-    grid-row-start: span;
+    display: grid;
+    grid-area: footer;
 }
 
 button {
@@ -23,7 +33,6 @@ button {
     border-style: none;
     height:100px;
     width: 100px;
-    
 }
 
 .menu-buttons {
@@ -36,7 +45,3 @@ button:hover {
     cursor: pointer;
 }
 
-/* #search {
-    background-color: purple;
-    background-image: url("img/search.png");
-} */
