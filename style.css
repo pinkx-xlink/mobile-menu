@@ -41,8 +41,10 @@ input {
     display: grid;
     grid-column: 1 / 2;
     grid-row: 2 / 5;
-
+    opacity: 50%;
+    margin:0;
 }
+
 
 footer {
     background-color: yellow;
