@@ -1,12 +1,15 @@
 body {
     margin: 0;
+    background-color: lavender;
 }
 
 footer {
     height: 100px;
     width:100%;
     background-color: yellow;
-    
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 button {
@@ -20,4 +23,9 @@ button {
 .menu-buttons {
     display: grid;
     grid-template-columns: 100px 100px 100px 100px 100px;
+}
+
+button:hover {
+    background-color: orangered;
+    cursor: pointer;
 }
