@@ -11,8 +11,13 @@ body {
 } 
 
 header {
-    display: grid;
+    display: flex;
     justify-content: center;
+    align-items: center;
+}
+input {
+    background-color: purple;
+    height: 50px;
 }
 
 #search {
