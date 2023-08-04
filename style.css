@@ -17,9 +17,10 @@ header {
     gap:5px;
 }
 input {
-    background-color: purple;
+    background-color: rgb(175, 157, 175);
     height: 50px;
     width: 300px;
+    border-radius: 25px;
 }
 
 #search {
