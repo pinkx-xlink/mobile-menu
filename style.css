@@ -21,6 +21,7 @@ input {
     height: 50px;
     width: 300px;
     border-radius: 25px;
+    padding-left: 65px;
 }
 
 #search {
@@ -30,8 +31,9 @@ input {
     justify-content: center;
     height: 60px;
     width: 60px;
-    background-color: lavender;
-    margin-right: -50px;
+    background-color: rgb(238, 115, 191);
+    border-radius: 55px;
+    margin-right: -70px;
 }
 
 .article {
