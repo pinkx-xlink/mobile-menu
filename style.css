@@ -29,3 +29,7 @@ button:hover {
     background-color: orangered;
     cursor: pointer;
 }
+
+.search {
+    background-color: purple;
+}
