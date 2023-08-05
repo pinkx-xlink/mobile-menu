@@ -45,6 +45,16 @@ input {
     opacity: 50%;
     margin-top:-200px;
 }
+
+#tab1Content,
+#tab2Content,
+#tab3Content,
+#tab4Content {
+    background-color: green;
+    display:grid;
+    height: max-content;
+}
+
 #tab1Content,
 #tab2Content,
 #tab3Content,
