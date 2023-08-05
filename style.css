@@ -36,7 +36,6 @@ input {
     background-color: rgb(238, 115, 191);
     border-radius: 55px;
     margin-right: -70px;
-    
 }
 
 .article {
@@ -45,6 +44,12 @@ input {
     grid-row: 2 / 5;
     opacity: 50%;
     margin-top:-200px;
+}
+#tab1Content,
+#tab2Content,
+#tab3Content,
+#tab4Content {
+    display: none;
 }
 
 
