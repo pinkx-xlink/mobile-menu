@@ -9,10 +9,10 @@ body {
     background: grey;
     display: grid;
     grid-template-rows: repeat(5, 1fr);
-    height: 600px;
-    width: 400px;
+    height: 650px;
+    width: 425px;
     margin: 50px;
-    border: 10px solid orange;
+    border: 10px solid rgb(46, 6, 16);
     border-radius: 25px;
     padding:10px;
 } 
@@ -84,6 +84,8 @@ button {
     border-style: none;
     height:100px;
     width: 100px;
+    border: 3px solid rgb(138, 36, 87);
+    margin: 0;
 }
 
 /* .menu-buttons {
