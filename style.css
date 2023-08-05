@@ -22,7 +22,9 @@ header {
     justify-content: center;
     align-items: center;
     gap:5px;
-    
+}
+h2{
+   
 }
 input {
     background-color: transparent;
