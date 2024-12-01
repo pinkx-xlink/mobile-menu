@@ -17,7 +17,6 @@ body {
     margin: 50px;
     border: 10px solid rgb(46, 6, 16);
     border-radius: 25px;
-    padding:10px;
 } 
 
 header {
@@ -61,8 +60,7 @@ input {
 #tab3Content,
 #tab4Content {
     background-color: green;
-    display:grid;
-    grid-row: 2 / 4;
+    display: flex;
     height: 300px;
     justify-content: center;
 }
@@ -76,7 +74,10 @@ input {
 
 
 footer {
-    background-color: yellow;
+    background-image: linear-gradient(to bottom right, pink, blue);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 0px;
     display: grid;
     grid-column: 1 / 2;
     grid-row: 5 / 6; /*useless*/
